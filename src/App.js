@@ -1,10 +1,12 @@
-import Card from "./components/Card/Card";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div>
-      <Card id={"CAM-1"} title={"Update User Profile Page UI"} tag = {["Feature request"]}/>
-    </div>
+    <>
+      <Navbar/>
+      <Home/>
+    </>
   );
 }
 
