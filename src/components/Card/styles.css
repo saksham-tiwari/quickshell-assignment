@@ -1,0 +1,85 @@
+.card{
+    width: 28rem;
+    height: fit-content;
+    box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.301);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.101);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card .idDiv{
+    color:rgb(145,147,153);
+    font-size:0.8rem;
+}
+
+.card .titleDiv{
+    color: black;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.5rem;
+    max-height: 3rem;
+}
+
+.card .bottomDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+}
+
+.card .bottomDiv .statusDiv svg{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.card .bottomDiv .statusDiv{
+    border: 0.5px solid rgba(0, 0, 0, 0.101);
+    padding: 0.15rem 0.25rem;
+}
+
+.card .bottomDiv .tagDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: rgba(139, 141, 152);
+    font-weight: 600;
+    border: 0.5px solid rgba(0, 0, 0, 0.101);
+    padding: 0.35rem 0.5rem;
+}
+
+.card .bottomDiv .tagDiv .circle{
+    border: 0.5px solid rgba(0, 0, 0, 0.101);
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: rgba(190, 194, 200);
+}
+
+.card .profileDiv .profileIcon {
+    background-color: rgba(190, 194, 200);
+    color: black;
+    font-size: 0.8rem;
+    width: fit-content;
+    align-content: center;
+    border-radius: 50%;
+    padding: 0.25rem;
+    
+}
+
+.card .profileDiv {
+    position: relative;
+    left: calc(100% - 2rem);
+    top: 0;
+    height: 0;
+}
